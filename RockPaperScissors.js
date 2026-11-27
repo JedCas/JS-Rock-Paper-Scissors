@@ -49,7 +49,7 @@ function playGame(){
 
     function getUserChoice(){
         let userChoice = prompt("Please enter your choice").toUpperCase();
-        if (userChoice !== "ROCK" || userChoice !== "PAPER" || userChoice !== "SCISSORS"){
+        if (userChoice !== "ROCK" && userChoice !== "PAPER" && userChoice !== "SCISSORS"){
             return "Invalid";
         }
         return userChoice;
