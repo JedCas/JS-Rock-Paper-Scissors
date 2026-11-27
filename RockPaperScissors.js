@@ -8,7 +8,7 @@ function playGame(){
     let cpuScore = 0;
     let userChoice = getUserChoice();
     let cpuChoice = getCpuChoice();
-    for (let i = 0; i < 5; i++){
+    for (let i = 0; i < 4; i++){
         let outcome = playRound(getCpuChoice(), getUserChoice())
         if (outcome === "Win"){
             userScore++;
